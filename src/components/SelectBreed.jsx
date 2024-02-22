@@ -6,7 +6,7 @@ function SelectBreed({ selectedBreed, setSelectedBreed }) {
 
     useEffect(() => {
         async function getBreedList() {
-            const response = await fetch('https://api.thecatapi.com/v1/breeds');
+            const response = await fetch('https://api.thedogapi.com/v1/breeds');
             const result = await response.json();
             setBreedList(result);
         }

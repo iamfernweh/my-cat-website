@@ -4,7 +4,7 @@ import './RandomPic.css';
 function RandomPic({ imgUrl, refetchFunction }) {
     return (
         <>
-            <Button onClick={refetchFunction} variant="outlined" color="success">New Cat</Button>
+            <Button onClick={refetchFunction} variant="outlined" color="success">New Dog</Button>
             <br /><br />
             <img className="random-pic" src={imgUrl} />
         </>

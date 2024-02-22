@@ -25,7 +25,7 @@ function App() {
 
   console.log(selectedBreed);
 
-  const API_URL = `https://api.thecatapi.com/v1/images/search`;
+  const API_URL = `https://api.thedogapi.com/v1/images/search`;
   const queryString = `?breed_ids=${selectedBreed}`;
 
   const fetchUrl = selectedBreed === ''
